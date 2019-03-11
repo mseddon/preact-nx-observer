@@ -1,6 +1,6 @@
 {
   "name": "preact-nx-observer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple preact decorator for @nx-js/observer-util",
   "repository": "mseddon/preact-nx-observer",
   "author": "mseddon",
