@@ -32,3 +32,5 @@ setInterval(() => thing.foo += "!", 1000)
 And thats it!
 
 ## License
+
+MIT
