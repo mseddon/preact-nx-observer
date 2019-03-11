@@ -1,0 +1,20 @@
+{
+  "name": "preact-nx-observer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "microbundle --external @nx-js/observer-util",
+    "dev": "microbundle watch"
+  },
+  "source": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@nx-js/observer-util": "^4.2.2"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "microbundle": "^0.11.0"
+  }
+}
