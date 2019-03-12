@@ -1,17 +1,19 @@
 {
   "name": "preact-nx-observer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A simple preact decorator for @nx-js/observer-util",
   "repository": "mseddon/preact-nx-observer",
   "author": "mseddon",
   "license": "MIT",
   "main": "index.js",
+  "umd:main": "index.umd.js",
+  "module": "index.mjs",
+  "source": "src/index.js",
   "keywords": ["preact", "mobx", "observer"],
   "scripts": {
     "build": "microbundle --external @nx-js/observer-util",
     "dev": "microbundle watch"
   },
-  "source": "src/index.js",
   "peerDependencies": {
     "@nx-js/observer-util": "^4.2.2"
   },
